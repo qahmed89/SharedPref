@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SharedPref">
         <activity
+            android:name="com.ahmed.DetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
